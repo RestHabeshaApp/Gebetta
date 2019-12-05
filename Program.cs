@@ -19,9 +19,7 @@ namespace StandardMVC
 
         public  static void Main(string[] args)
         {
-
 //          CreateWebHostBuilder(args).Build().Run();
-
             AsyncMain().GetAwaiter().GetResult();
 
         }
